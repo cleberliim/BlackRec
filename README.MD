@@ -1,6 +1,7 @@
 # Project Overview
 
-This repository contains the following folder structure:
+Este repositório contém a seguinte estrutura de pastas:
+
 
 - **BlackRec**
   - index.php
@@ -12,7 +13,6 @@ This repository contains the following folder structure:
         - footer.php
         - header.php
         - navbar.php
-  - **BlackRec/functions**
   - **BlackRec/pages**
     - brands.php
     - contact.php
@@ -54,7 +54,7 @@ This repository contains the following folder structure:
         - thumbYoutube2.png
         - thumbYoutube3.png
         - thumbYoutube4.png
-  - **BlackRec/routes**
+  
 
 ## Getting Started
 As instruções para configurar o projeto localmente estarão aqui
