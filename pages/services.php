@@ -56,8 +56,9 @@
 
       <!-- Botão de contato -->
       <div class="mt-10">
-        <a href="#contact" target="_blank" rel="noopener noreferrer"  class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded">
+        <a href="https://wa.me/5515997718114" target="_blank" rel="noopener noreferrer"  class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded">
           Entre em contato
+          <i class="fab fa-whatsapp mr-2 text-base"></i>  
         </a>
       </div>
     </div>

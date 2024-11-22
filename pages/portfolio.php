@@ -23,8 +23,8 @@
 
       <!-- Exemplo de Vídeo -->
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube.jpg" alt="Vídeo 1" class="rounded-lg">
-        <a href="https://www.youtube.com/watch?v=EXEMPLO" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube1.png" alt="Vídeo 1" class="rounded-lg">
+        <a href="https://www.youtube.com/watch?v=AVKHkOQ5bYQ" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
           <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
@@ -36,7 +36,7 @@
 
       <!-- Vídeos -->
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube.jpg" alt="Vídeo 2" class="rounded-lg">
+        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube2.png" alt="Vídeo 2" class="rounded-lg">
         <a href="https://www.youtube.com/watch?v=EXEMPLO2" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
           <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
@@ -44,8 +44,8 @@
 
       <!-- Mais Vídeos -->
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube.jpg" alt="Vídeo 3" class="rounded-lg">
-        <a href="https://www.youtube.com/watch?v=EXEMPLO3" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube3.png" alt="Vídeo 3" class="rounded-lg">
+        <a href="https://www.youtube.com/watch?v=ixZLYYOePLU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
           <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
