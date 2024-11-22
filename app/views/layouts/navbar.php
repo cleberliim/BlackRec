@@ -1,3 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackRec</title>
+
+    <!-- Taiwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom css -->
+    <link href="/public/assets/css/custom.css" rel="stylesheet" title="custom">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+    
+</head>
 <nav class="bg-black text-white py-4 p-40">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
       <!-- Logo -->
