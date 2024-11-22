@@ -11,8 +11,7 @@
       <div class="flex space-x-8">
         <a href="#home" class="menu-item active">HOME</a>
         <a href="#services" class="menu-item">SERVIÇOS</a>
-        <a href="#about" class="menu-item">SOBRE NÓS</a>
-        <a href="#portfolio" class="menu-item">PORTFOLIO</a>
+        <a href="#portfolio" class="menu-item">PORTFÓLIO</a>
         <a href="#contact" class="menu-item">CONTATO</a>
       </div>
 

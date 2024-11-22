@@ -1,14 +1,12 @@
  <!-- Serviços -->
- <section id="services" class="relative py-16 p-40 screen bg-cover  bg-right" style="background-image: url('http://localhost/BlackRec/public/img/services-bg.png');">
-    <!-- Sobreposição preta transparente -->
-    <div class="absolute inset-0 bg-black bg-opacity-90"></div>
+ <section id="services" class="relative py-16 p-40 screen bg-cover  bg-right" style="background-image: url('http://localhost/BlackRec/public/img/background-service.png');">
 
     <div class="relative z-10 container mx-auto text-center">
       <!-- Título com traços vermelhos -->
       <div class="flex flex-col items-center mb-12">
-        <div class="w-16 h-1 bg-red-600 mb-2"></div>
+         
         <h2 class="text-2xl md:text-4xl font-bold mb-2 text-white	">NOSSOS SERVIÇOS</h2>
-        <div class="w-16 h-1 bg-red-600"></div>
+        <div class="w-80 h-1 bg-red-600"></div>
       </div>
 
       <!-- Cards de Serviços -->

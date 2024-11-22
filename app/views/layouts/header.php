@@ -13,37 +13,9 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-    .menu-item {
-      font-size: 14px;
-      position: relative;
-    }
-
-    /* Efeito hover para itens do menu */
-    .menu-item:hover::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 2px;
-      background-color: #FE2C2B;
-      margin-top: 2px;
-    }
-
-    /* Borda fixa vermelha para HOME */
-    .active::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 2px;
-      background-color: #FE2C2B;
-      margin-top: 2px;
-    }
-  </style>
     
 </head>
 <body class="bg-gray-100">
