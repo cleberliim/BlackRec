@@ -37,7 +37,7 @@
       <!-- Vídeos -->
       <div class="portfolio-item video relative">
         <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube2.png" alt="Vídeo 2" class="rounded-lg">
-        <a href="https://www.youtube.com/watch?v=EXEMPLO2" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <a href="https://www.youtube.com/watch?v=ixZLYYOePLU&t=17s" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
           <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
@@ -45,15 +45,16 @@
       <!-- Mais Vídeos -->
       <div class="portfolio-item video relative">
         <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube3.png" alt="Vídeo 3" class="rounded-lg">
-        <a href="https://www.youtube.com/watch?v=ixZLYYOePLU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <a href="https://www.youtube.com/watch?v=hoavFyka-uU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
           <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
 
-      <!-- Mais Fotos -->
-      <div class="portfolio-item photo relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 3" class="rounded-lg cursor-pointer">
+      <div class="portfolio-item video relative">
+        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube4.png" alt="Vídeo 3" class="rounded-lg">
+        <a href="https://youtube.com/watch?v=zItB3Cun3Pw" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+          <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
+        </a>
       </div>
-    </div>
   </div>
 </section>
