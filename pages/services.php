@@ -1,5 +1,5 @@
  <!-- Serviços -->
- <section id="services" class="relative py-16 p-40 screen bg-cover  bg-right" style="background-image: url('http://localhost/BlackRec/public/img/background-service.png');">
+ <section id="services" class="relative py-16 p-40 screen bg-cover  bg-center" style="background-image: url('http://localhost/BlackRec/public/img/background-service.png');">
 
     <div class="relative z-10 container mx-auto text-center">
       <!-- Título com traços vermelhos -->
