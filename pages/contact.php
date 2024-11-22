@@ -27,17 +27,16 @@
   <div class="mt-16 text-center">
     <h3 class="text-2xl font-semibold text-white mb-4">Siga-nos nas Redes Sociais</h3>
     <div class="flex justify-center space-x-8">
-      <a href="#instagram" class="text-white hover:text-gray-600"><i class="fab fa-instagram text-3xl"></i></a>
-      <a href="#youtube" class="text-white hover:text-gray-600"><i class="fab fa-youtube text-3xl"></i></a>
-      <a href="#facebook" class="text-white hover:text-gray-600"><i class="fab fa-facebook text-3xl"></i></a>
-      <a href="#twitter" class="text-white hover:text-gray-600"><i class="fab fa-twitter text-3xl"></i></a>
+      <a href="https://www.instagram.com/blackrecprod/" target="_blank" rel="noopener noreferrer"  class="text-white hover:text-gray-600"><i class="fab fa-instagram text-3xl"></i></a>
+      <a href="https://www.youtube.com/@BlackrecProducoes" target="_blank" rel="noopener noreferrer"  class="text-white hover:text-gray-600"><i class="fab fa-youtube text-3xl"></i></a>
+      <a href="https://www.facebook.com/blackrecprod" target="_blank" rel="noopener noreferrer"  class="text-white hover:text-gray-600"><i class="fab fa-facebook text-3xl"></i></a>
     </div>
   </div>
 
   <!-- WhatsApp -->
   <div class="mt-8 text-center">
     <h3 class="text-2xl font-semibold text-white mb-4">Fale Conosco no WhatsApp</h3>
-    <a href="https://wa.me/5551999999999" class="inline-flex items-center text-green-500 hover:text-green-600 text-xl font-medium">
+    <a href="https://wa.me/5515997718114" class="inline-flex items-center text-green-500 hover:text-green-600 text-xl font-medium">
       <i class="fab fa-whatsapp mr-2"></i> WhatsApp
     </a>
   </div>
@@ -48,7 +47,7 @@
 <!-- Chat Flutuante com Botão do WhatsApp -->
 <div class="fixed bottom-4 right-4 z-50">
   <!-- Botão de WhatsApp -->
-  <a href="https://wa.me/5551999999999" class="inline-flex items-center bg-green-500 text-white py-3 px-6 rounded-full shadow-lg hover:bg-green-600 transition duration-300">
+  <a href="https://wa.me/5515997718114" class="inline-flex items-center bg-green-500 text-white py-3 px-6 rounded-full shadow-lg hover:bg-green-600 transition duration-300">
     <i class="fab fa-whatsapp text-2xl mr-2"></i>
     Vamos conversar?
   </a>
@@ -75,7 +74,7 @@
 
 <!-- Script para abrir e fechar o chat -->
 <script>
-  const whatsappButton = document.querySelector('a[href="https://wa.me/5551999999999"]');
+  const whatsappButton = document.querySelector('a[href="https://wa.me/5515997718114"]');
   const chatBox = document.querySelector('.chat-box');
   const closeChatButton = document.querySelector('.close-chat');
 

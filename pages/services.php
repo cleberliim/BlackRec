@@ -56,7 +56,7 @@
 
       <!-- Botão de contato -->
       <div class="mt-10">
-        <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded">
+        <a href="#contact" target="_blank" rel="noopener noreferrer"  class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded">
           Entre em contato
         </a>
       </div>

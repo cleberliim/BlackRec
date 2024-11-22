@@ -18,10 +18,9 @@
 
       <!-- Social Icons -->
       <div class="flex space-x-6">
-        <a href="#instagram" class="hover:text-gray-400"><i class="fab fa-instagram text-xl"></i></a>
-        <a href="#youtube" class="hover:text-gray-400"><i class="fab fa-youtube text-xl"></i></a>
-        <a href="#facebook" class="hover:text-gray-400"><i class="fab fa-facebook text-xl"></i></a>
-        <a href="#twitter" class="hover:text-gray-400"><i class="fab fa-twitter text-xl"></i></a>
+        <a href="https://www.instagram.com/blackrecprod/" target="_blank" rel="noopener nore ferrer" class="hover:text-gray-400"><i class="fab fa-instagram text-xl"></i></a>
+        <a href="https://www.youtube.com/@BlackrecProducoes" target="_blank" rel="noopener noreferrer"  class="hover:text-gray-400"><i class="fab fa-youtube text-xl"></i></a>
+        <a href="https://www.facebook.com/blackrecprod" target="_blank" rel="noopener noreferrer"  class="hover:text-gray-400"><i class="fab fa-facebook text-xl"></i></a>
       </div>
     </div>
   </nav>
