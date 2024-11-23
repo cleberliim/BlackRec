@@ -8,8 +8,7 @@
     </div>
   </div>
 
-
-
+ 
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn'); // Botões de filtragem
