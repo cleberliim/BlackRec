@@ -4,7 +4,7 @@
       <!-- Logo -->
       <div>
         <a href="#home">
-          <img src="http://localhost/BlackRec/public/img/logoNavbar.png" alt="Logo" class="h-12"> <!-- Altere "logo.png" pelo caminho correto do seu arquivo PNG -->
+          <img src="BlackRec/public/img/logoNavbar.png" alt="Logo" class="h-12"> <!-- Altere "logo.png" pelo caminho correto do seu arquivo PNG -->
         </a>
       </div>
 

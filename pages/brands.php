@@ -19,43 +19,43 @@
         <div class="swiper-wrapper">
           <!-- Logo 1 -->
           <div class="swiper-slide flex items-center justify-center">
-            <img src="http://localhost/BlackRec/public/img/brands/wow-paraquedismo.png" alt="Cliente 1" class="h-20">
+            <img src="BlackRec/public/img/brands/wow-paraquedismo.png" alt="Cliente 1" class="h-20">
           </div>
         <!-- Logo 2 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/SharkImob.png" alt="Cliente 2" class="h-20">
+          <img src="BlackRec/public/img/brands/SharkImob.png" alt="Cliente 2" class="h-20">
         </div>
         <!-- Logo 3 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/SKYFEET.png" alt="Cliente 3" class="h-20">
+          <img src="BlackRec/public/img/brands/SKYFEET.png" alt="Cliente 3" class="h-20">
         </div>
          <!-- Logo 4 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/SportZone.png" alt="Cliente 4" class="h-20">
+          <img src="BlackRec/public/img/brands/SportZone.png" alt="Cliente 4" class="h-20">
         </div>
          <!-- Logo 5 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/ISRAviation.png" alt="Cliente 5" class="h-20">
+          <img src="BlackRec/public/img/brands/ISRAviation.png" alt="Cliente 5" class="h-20">
         </div>
          <!-- Logo 6 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/WowParaquedismo.png" alt="Cliente 6" class="h-20">
+          <img src="BlackRec/public/img/brands/WowParaquedismo.png" alt="Cliente 6" class="h-20">
         </div>
          <!-- Logo 7 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/SKYFEET.png" alt="Cliente 7" class="h-20">
+          <img src="BlackRec/public/img/brands/SKYFEET.png" alt="Cliente 7" class="h-20">
         </div>
          <!-- Logo 8 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/vilaskybeach.png" alt="Cliente 8" class="h-20">
+          <img src="BlackRec/public/img/brands/vilaskybeach.png" alt="Cliente 8" class="h-20">
         </div>
          <!-- Logo 9 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/ICARUS.png" alt="Cliente 9" class="h-20">
+          <img src="BlackRec/public/img/brands/ICARUS.png" alt="Cliente 9" class="h-20">
         </div>
          <!-- Logo 10 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="http://localhost/BlackRec/public/img/brands/COMANDO.png" alt="Cliente 10" class=" mt-6">
+          <img src="BlackRec/public/img/brands/COMANDO.png" alt="Cliente 10" class=" mt-6">
         </div>     
       </div>
 

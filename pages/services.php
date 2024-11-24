@@ -14,7 +14,7 @@
         <!-- Card 1 -->
         <div class="p-6 rounded-lg shadow-lg">
         <h3 class="text-xl font-bold mb-2 text-white	mb-8">Produção de Vídeo</h3>
-        <img src="http://localhost/BlackRec/public/img/producao-video.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
+        <img src="BlackRec/public/img/producao-video.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
 
          
           <p class="text-sm text-white">
@@ -25,7 +25,7 @@
         <!-- Card 2 -->
         <div class="p-6 rounded-lg shadow-lg">
         <h3 class="text-xl font-bold mb-2 text-white	mb-8">Produção de Fotografia</h3>
-        <img src="http://localhost/BlackRec/public/img/ensaio-fotografico.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
+        <img src="BlackRec/public/img/ensaio-fotografico.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
 
         
           <p class="text-sm text-white	">
@@ -36,7 +36,7 @@
         <!-- Card 3 -->
         <div class="p-6 rounded-lg shadow-lg">
         <h3 class="text-xl font-bold mb-2 text-white	mb-8">Cobertura de Eventos</h3>
-        <img src="http://localhost/BlackRec/public/img/cobertura-de-eventos.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
+        <img src="BlackRec/public/img/cobertura-de-eventos.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
 
           <p class="text-sm text-white	">
             Atuamos com todas as frentes de produção de vídeos, fotografias e transmissão ao vivo.
@@ -46,7 +46,7 @@
         <!-- Card 4 -->
         <div class="p-6 rounded-lg shadow-lg">
           <h3 class="text-xl font-bold mb-2 text-white	mb-8">Edição em Tempo Real</h3>
-          <img src="http://localhost/BlackRec/public/img/edicao-em-tempo -real.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
+          <img src="BlackRec/public/img/edicao-em-tempo -real.jpg" alt="Produção de Vídeo" class="w-full h-40 object-cover rounded-t-lg mb-4">
 
           <p class="text-sm text-white ">
             A velocidade é essencial no mundo digital. Transmita sua mensagem com rapidez e precisão.

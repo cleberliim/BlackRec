@@ -18,42 +18,42 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-items">
       <!-- Exemplo de Foto -->
       <div class="portfolio-item photo relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" class="rounded-lg cursor-pointer">
+        <img src="BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" class="rounded-lg cursor-pointer">
       </div>
 
       <!-- Exemplo de Vídeo -->
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube1.png" alt="Vídeo 1" class="rounded-lg">
+        <img src="BlackRec/public/img/portfolio/thumbYoutube1.png" alt="Vídeo 1" class="rounded-lg">
         <a href="https://www.youtube.com/watch?v=AVKHkOQ5bYQ" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-          <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
+          <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
 
       <!-- Fotos -->
       <div class="portfolio-item photo relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" class="rounded-lg cursor-pointer">
+        <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" class="rounded-lg cursor-pointer">
       </div>
 
       <!-- Vídeos -->
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube2.png" alt="Vídeo 2" class="rounded-lg">
+        <img src="BlackRec/public/img/portfolio/thumbYoutube2.png" alt="Vídeo 2" class="rounded-lg">
         <a href="https://www.youtube.com/watch?v=ixZLYYOePLU&t=17s" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-          <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
+          <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
 
       <!-- Mais Vídeos -->
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube3.png" alt="Vídeo 3" class="rounded-lg">
+        <img src="BlackRec/public/img/portfolio/thumbYoutube3.png" alt="Vídeo 3" class="rounded-lg">
         <a href="https://www.youtube.com/watch?v=hoavFyka-uU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-          <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
+          <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
 
       <div class="portfolio-item video relative">
-        <img src="http://localhost/BlackRec/public/img/portfolio/thumbYoutube4.png" alt="Vídeo 3" class="rounded-lg">
+        <img src="BlackRec/public/img/portfolio/thumbYoutube4.png" alt="Vídeo 3" class="rounded-lg">
         <a href="https://youtube.com/watch?v=zItB3Cun3Pw" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-          <img src="http://localhost/BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
+          <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
         </a>
       </div>
   </div>

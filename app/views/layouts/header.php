@@ -28,12 +28,10 @@
 
 </head>
 
-<body class="bg-gray-100">
-  <?php include_once("../BlackRec/app/views/layouts/navbar.php") ?>
-
+<body class="bg-gray-100">   
   
  <!-- Botão e Modal -->
-<header class="relative h-screen bg-cover bg-center" style="background-image: url('http://localhost/BlackRec/public/img/background.png');">
+<header class="relative h-screen bg-cover bg-center" style="background-image: url('BlackRec/public/img/background.png');">
   <div class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-center px-4">
     <h1 class="text-white font-thin font-montserrat text-[20px] mb-8" style="letter-spacing: 0.5px;">
       Bem-vindo ao universo <span class="font-bold">Blackrec</span>, onde a arte ganha vida <br>através de vídeos autênticos e ousados.
