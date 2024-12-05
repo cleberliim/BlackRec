@@ -29,36 +29,69 @@ body {
 }
 
 
+/* Styles for the section */
+#brands {
+  padding: 16px 4px; /* Ajuste do padding superior e lateral */
+  background-color: #181818; /* bg-zinc-950 */
+  margin: 0; /* Remover qualquer margem */
+}
+
+/* Swiper Container */
 #brands .swiper {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Alinhamento centralizado */
+  width: 100%;
+  margin-bottom: 0; /* Garantir que não haja margem inferior */
+}
+
+/* Swiper Wrapper (Remove extra space) */
+#brands .swiper-wrapper {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Para rolagem suave em iOS */
+  padding: 0; /* Remover padding extra */
+  margin: 0; /* Remover margem extra */
+}
+
+/* Swiper Slide Image */
+#brands .swiper-slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Pagination */
+#brands .swiper-pagination {
+  margin-top: 10px;
+}
+
+/* Responsiveness: Mobile Devices */
+@media (max-width: 768px) {
+  /* Title and text */
+  #brands .text-2xl {
+    font-size: 1.25rem; /* Ajuste do tamanho da fonte */
   }
   
-  #brands .swiper-button-prev,
-  #brands .swiper-button-next {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s;
+  /* Ajustes no swiper-wrapper para dispositivos móveis */
+  #brands .swiper-wrapper {
+    padding: 0; /* Remover padding */
+    margin: 0; /* Remover margem */
   }
-  
-  #brands .swiper-button-prev:hover,
-  #brands .swiper-button-next:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  
+
+  /* Ajustar o tamanho da imagem para telas pequenas */
   #brands .swiper-slide img {
-    max-width: 100%;
-    height: auto;
+    height: 80px; /* Ajuste do tamanho da imagem */
   }
-  
-  #brands .swiper-pagination {
-    margin-top: 10px;
+}
+
+/* Larger screens */
+@media (min-width: 1024px) {
+  #brands .swiper-slide img {
+    height: 120px; /* Tamanho maior para desktop */
   }
+}
+
 
 
   /* Portfólio - Botões de Filtro */
@@ -169,3 +202,6 @@ body {
 .animate-bounce {
   animation: bounce 2s infinite;
 }
+
+
+
