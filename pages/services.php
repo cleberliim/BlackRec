@@ -1,5 +1,5 @@
 <!-- Serviços -->
-<section id="services" class="relative py-16 px-6 lg:px-40 bg-cover bg-center" style="background-image: url('http://localhost/BlackRec/public/img/background-service.webp');">
+<section id="services" class="relative py-16 px-6 lg:px-40 bg-cover bg-center" style="background-image: url('BlackRec/public/img/background-service.webp');">
   <div class="relative z-10 container mx-auto text-center">
     <!-- Título com traços vermelhos -->
     <div class="flex flex-col items-center mb-12">

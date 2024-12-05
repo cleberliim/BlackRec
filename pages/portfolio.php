@@ -16,47 +16,122 @@
 
     <!-- Cards do Portfólio -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8" id="portfolio-items">
-      <!-- Exemplo de Foto -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" class="rounded-lg cursor-pointer">
-      </div>
 
-      <!-- Exemplo de Vídeo -->
+      <!-- Vídeo de casamento -->
       <div class="portfolio-item video relative">
-        <img src="BlackRec/public/img/portfolio/thumbYoutube1.png" alt="Vídeo 1" class="rounded-lg">
-        <a href="https://www.youtube.com/watch?v=AVKHkOQ5bYQ" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-          <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
-        </a>
-      </div>
-
-      <!-- Fotos -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" class="rounded-lg cursor-pointer">
-      </div>
-
-      <!-- Vídeos -->
-      <div class="portfolio-item video relative">
-        <img src="BlackRec/public/img/portfolio/thumbYoutube2.png" alt="Vídeo 2" class="rounded-lg">
-        <a href="https://www.youtube.com/watch?v=ixZLYYOePLU&t=17s" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-          <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
-        </a>
-      </div>
-
-      <!-- Itens Adicionais -->
-      <div class="hidden more-items">
-        <div class="portfolio-item video relative">
-          <img src="BlackRec/public/img/portfolio/thumbYoutube3.png" alt="Vídeo 3" class="rounded-lg">
-          <a href="https://www.youtube.com/watch?v=hoavFyka-uU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <div class="video-container">
+          <img src="BlackRec/public/img/portfolio/thumbYoutube.jpg" alt="Vídeo 1" class="rounded-lg object-cover w-full h-full">
+          <a href="https://www.youtube.com/watch?v=XLTnOMLzZ7U" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
             <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
           </a>
         </div>
       </div>
+
+      <!-- Vídeo documentário -->
+      <div class="portfolio-item video relative">
+        <div class="video-container">
+          <img src="BlackRec/public/img/portfolio/thumbYoutube1.jpg" alt="Vídeo 2" class="rounded-lg object-cover w-full h-full">
+          <a href="https://youtu.be/49q1NiA7EX4" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+          </a>
+        </div>
+      </div>
+
+      <!-- Vídeo institucional -->
+      <div class="hidden more-items">
+        <div class="portfolio-item video relative">
+          <div class="video-container">
+            <img src="BlackRec/public/img/portfolio/thumbYoutube2.jpg" alt="Vídeo 3" class="rounded-lg object-cover w-full h-full">
+            <a href="https://youtu.be/ixZLYYOePLU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aniversário Lulu -->
+      <div class="hidden more-items">
+        <div class="portfolio-item video relative">
+          <div class="video-container">
+            <img src="BlackRec/public/img/portfolio/thumbYoutube3.jpg" alt="Vídeo 4" class="rounded-lg object-cover w-full h-full">
+            <a href="https://youtu.be/hoavFyka-uU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagem 1 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 2 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 4 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo4.jpg" alt="Foto 4" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 5 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo5.jpg" alt="Foto 5" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 6 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo6.jpg" alt="Foto 6" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 7 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo7.jpg" alt="Foto 7" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 8 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo8.jpg" alt="Foto 8" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 9 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo14.jpg" alt="Foto 9" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 10 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo10.jpg" alt="Foto 10" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 11 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo11.jpg" alt="Foto 11" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 12 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo12.jpg" alt="Foto 12" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 13 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo13.jpg" alt="Foto 13" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
+      <!-- Imagem 14 -->
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo9.jpg" alt="Foto 14" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
     </div>
 
     <!-- Botão Ver Mais -->
     <div class="text-center mt-6 md:mt-8">
       <button id="see-more-btn" class="bg-red-600 text-white py-2 px-6 sm:px-8 rounded text-sm hover:bg-red-700">
-        Ver Mais
+        VER MAIS
       </button>
     </div>
   </div>
