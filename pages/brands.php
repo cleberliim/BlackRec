@@ -1,15 +1,15 @@
 <!-- Brands -->
-<section id="brands" class="py-16 px-4 lg:px-40 bg-zinc-950">
-  <div class="container h-60">
+<section id="brands" class="py-16 px-4 lg:px-40 bg-zinc-950 h-60">
+  <div class="container">
     <!-- Título -->
-    <div class="flex flex-col items-center mb-12 text-center">
+    <div class="flex flex-col items-center mb-20 text-center">
       <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Nossos Clientes</h2>
       <p class="text-white text-sm md:text-base">Grandes marcas acreditam em nosso trabalho</p>
     </div>
 
     <!-- Slider -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper flex space-x-6 overflow-hidden">
+    <div class="swiper mySwiper mb-40 ">
+      <div class="swiper-wrapper flex space-x-6">
         <!-- Logo 1 -->
         <div class="swiper-slide flex items-center justify-center">
           <img src="BlackRec/public/img/brands/wow-paraquedismo.png" alt="Cliente 1" class="h-12 md:h-20">

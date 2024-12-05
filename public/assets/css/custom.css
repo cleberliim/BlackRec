@@ -205,3 +205,16 @@ body {
 
 
 
+/* Ajustar as imagens dentro do portfolio */
+.portfolio-item img {
+  object-fit: cover; /* Garantir que a imagem cubra toda a área do container sem distorcer */
+  width: 100%;
+  height: auto; /* Ajusta automaticamente a altura para manter a proporção */
+  max-width: 100%; /* Garante que as imagens não ultrapassem o container */
+}
+
+/* Ajustar o tamanho das imagens no modal */
+.portfolio-item img {
+  max-width: 90%; /* Ajusta o tamanho máximo da imagem no modal */
+  max-height: 80vh; /* Garante que a altura não ultrapasse 80% da altura da tela */
+}

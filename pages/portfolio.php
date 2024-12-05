@@ -1,9 +1,9 @@
 <!-- Portfolio -->
-<section id="portfolio" class="py-8 md:py-16 bg-zinc-950 px-4 sm:px-6 md:px-12">
+<section id="portfolio" class="py-8 md:py-16 bg-zinc-950 px-4 sm:px-6 md:px-12 ">
   <div class="container mx-auto">
     <!-- Título -->
     <div class="flex flex-col items-center mb-8 md:mb-12">
-      <h2 class="text-xl sm:text-2xl md:text-4xl font-bold text-white mb-2">NOSSO PORTFÓLIO</h2>
+      <h2 class="text-xl sm:text-2xl md:text-4xl font-bold text-white mb-2 pt-40">NOSSO PORTFÓLIO</h2>
       <div class="w-24 sm:w-40 h-1 bg-red-600"></div>
     </div>
 
