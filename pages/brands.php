@@ -31,7 +31,7 @@
         </div>
          <!-- Logo 4 -->
          <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/SportZone.png" alt="Cliente 4" class="h-20">
+          <img src="BlackRec/public/img/brands/SportZone.png" alt="Cliente 4" class="h-40">
         </div>
          <!-- Logo 5 -->
          <div class="swiper-slide flex items-center justify-center">

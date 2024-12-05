@@ -51,11 +51,7 @@
           </a>
         </div>
 
-        <div class="portfolio-item video relative">
-          <img src="BlackRec/public/img/portfolio/thumbYoutube4.png" alt="Vídeo 4" class="rounded-lg">
-          <a href="https://youtube.com/watch?v=zItB3Cun3Pw" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-12 h-12">
-          </a>
+         
         </div>
       </div>
     </div>
