@@ -103,9 +103,9 @@
     </div>
 
     <!-- Botão Ver Mais -->
-    <div class="text-center mt-6 md:mt-8">
-      <button id="see-more-btn" class="bg-red-600 text-white py-2 px-6 sm:px-8 rounded text-sm hover:bg-red-700">
-        VER MAIS
+    <div class="text-center mt-6 md:mt-8 w-full">
+      <button id="see-more-btn" class="bg-red-600 text-white  font-bold	 tracking-wider py-2 px-6 sm:px-8 rounded text-sm hover:bg-red-700 w-full">
+        CARREGAR MAIS ...
       </button>
     </div>
   </div>
