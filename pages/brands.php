@@ -3,7 +3,7 @@
   <div class="container">
     <!-- Título -->
     <div class="flex flex-col items-center mb-20 text-center">
-      <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Nossos Clientes</h2>
+      <h2 class="text-2xl md:text-4xl font-bold text-white mb-12">NOSSOS CLIENTES</h2>
       <p class="text-white text-sm md:text-base">Grandes marcas acreditam em nosso trabalho</p>
     </div>
 
