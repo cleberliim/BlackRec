@@ -98,7 +98,7 @@
 
       <!-- Imagem 9 -->
       <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo14.jpg" alt="Foto 9" class="rounded-lg cursor-pointer object-cover w-full h-full">
+        <img src="BlackRec/public/img/portfolio/photo9.jpg" alt="Foto 9" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
 
       <!-- Imagem 10 -->
@@ -115,17 +115,6 @@
       <div class="portfolio-item photo relative">
         <img src="BlackRec/public/img/portfolio/photo12.jpg" alt="Foto 12" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
-
-      <!-- Imagem 13 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo13.jpg" alt="Foto 13" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 14 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo9.jpg" alt="Foto 14" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
     </div>
 
     <!-- Botão Ver Mais -->
