@@ -47,12 +47,5 @@
         <p class="text-sm text-gray-300">A velocidade é essencial no mundo digital. Transmita sua mensagem com rapidez e precisão.</p>
       </div>
     </div>
-
-    <!-- Botão de contato -->
-    <div class="mt-8">
-      <a href="https://wa.me/5515997718114" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded inline-flex items-center">
-        <i class="fab fa-whatsapp mr-2"></i> Entre em contato
-      </a>
-    </div>
   </div>
 </section>
