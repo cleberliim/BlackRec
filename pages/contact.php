@@ -1,6 +1,6 @@
 <section id="contact" class="bg-gray-100 py-16 bg-zinc-950">
   <div class="container mx-auto text-center">
-    <h2 class="text-3xl font-semibold text-white mb-8">Dúvidas e Orçamentos?    </h2>
+    <h2 class="text-3xl font-semibold text-white mb-8">Dúvidas e Orçamentos? </h2>
 
     <!-- Formulário de Contato -->
     <form action="#" method="POST" class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
@@ -27,9 +27,9 @@
   <div class="mt-16 text-center">
     <h3 class="text-2xl font-semibold text-white mb-4">Siga-nos nas Redes Sociais</h3>
     <div class="flex justify-center space-x-8">
-      <a href="https://www.instagram.com/blackrecprod/" target="_blank" rel="noopener noreferrer"  class="text-white hover:text-gray-600"><i class="fab fa-instagram text-3xl"></i></a>
-      <a href="https://www.youtube.com/@BlackrecProducoes" target="_blank" rel="noopener noreferrer"  class="text-white hover:text-gray-600"><i class="fab fa-youtube text-3xl"></i></a>
-      <a href="https://www.facebook.com/blackrecprod" target="_blank" rel="noopener noreferrer"  class="text-white hover:text-gray-600"><i class="fab fa-facebook text-3xl"></i></a>
+      <a href="https://www.instagram.com/blackrecprod/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-600"><i class="fab fa-instagram text-3xl"></i></a>
+      <a href="https://www.youtube.com/@BlackrecProducoes" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-600"><i class="fab fa-youtube text-3xl"></i></a>
+      <a href="https://www.facebook.com/blackrecprod" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-600"><i class="fab fa-facebook text-3xl"></i></a>
     </div>
   </div>
 
@@ -41,48 +41,3 @@
     </a>
   </div>
 </section>
-
-
-
-<!-- Chat Flutuante com Botão do WhatsApp -->
-<div class="fixed bottom-4 right-4 z-50">
-  <!-- Botão de WhatsApp -->
-  <a href="https://wa.me/5515997718114" class="inline-flex items-center bg-green-500 text-white py-3 px-6 rounded-full shadow-lg hover:bg-green-600 transition duration-300">
-    <i class="fab fa-whatsapp text-2xl mr-2"></i>
-    Vamos conversar?
-  </a>
-</div>
-
-<!-- Caixa de Chat (opcional) -->
-<div class="fixed bottom-20 right-4 z-40 hidden chat-box bg-white p-4 w-80 h-96 border border-gray-300 rounded-lg shadow-lg">
-  <div class="flex justify-between items-center mb-4">
-    <h4 class="text-xl font-semibold">Chat ao vivo</h4>
-    <button class="close-chat text-gray-500 hover:text-gray-700">
-      <i class="fas fa-times"></i>
-    </button>
-  </div>
-  <!-- Área de mensagens -->
-  <div class="chat-messages h-72 overflow-y-auto mb-4 p-2 border-b border-gray-300">
-    <!-- Mensagens aqui -->
-    <div class="message mb-2">
-      <p class="text-gray-800">Olá! Como posso te ajudar?</p>
-    </div>
-  </div>
-  <!-- Campo para enviar mensagem -->
-  <input type="text" placeholder="Escreva sua mensagem..." class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
-</div>
-
-<!-- Script para abrir e fechar o chat -->
-<script>
-  const whatsappButton = document.querySelector('a[href="https://wa.me/5515997718114"]');
-  const chatBox = document.querySelector('.chat-box');
-  const closeChatButton = document.querySelector('.close-chat');
-
-  whatsappButton.addEventListener('click', () => {
-    chatBox.classList.toggle('hidden');
-  });
-
-  closeChatButton.addEventListener('click', () => {
-    chatBox.classList.add('hidden');
-  });
-</script>
