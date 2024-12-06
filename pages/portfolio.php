@@ -69,8 +69,36 @@
         <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
       <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo3.jpg" alt="Foto 3" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
         <img src="BlackRec/public/img/portfolio/photo4.jpg" alt="Foto 4" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo5.jpg" alt="Foto 5" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo6.jpg" alt="Foto 5" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo7.jpg" alt="Foto 7" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo8.jpg" alt="Foto 8" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo9.jpg" alt="Foto 9" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo10.jpg" alt="Foto 10" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo11.jpg" alt="Foto 11" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+      <div class="portfolio-item photo relative">
+        <img src="BlackRec/public/img/portfolio/photo12.jpg" alt="Foto 12" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
+      </div>
+
       <!-- ...restante das imagens -->
     </div>
 
