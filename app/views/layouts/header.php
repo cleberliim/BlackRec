@@ -23,7 +23,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
   <!-- Font icone -->
-  <link rel="icon" href="BlackRec/public/img/icons/logo.ico" type="image/x-icon">
+  <link rel="icon" href="Blackrecprod/public/img/icons/logo.ico" type="image/x-icon">
 
   <!-- Incluindo Isotope -->
   <script src="https://unpkg.com/isotope-layout@3.0.7/dist/isotope.pkgd.min.js"></script>
