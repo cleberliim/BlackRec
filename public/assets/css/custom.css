@@ -4,9 +4,10 @@ body {
 }
 
 /* Adiciona o estilo personalizado para o modal */
-.modal {
-  display: none;
+.hidden {
+  display: none !important;
 }
+
 .menu-item {
   font-size: 14px;
   position: relative;

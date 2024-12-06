@@ -32,62 +32,77 @@
 </head>
 
 <body class="bg-gray-100">
+  <!-- Navbar -->
   <nav class="bg-black text-white py-4 px-8">
     <div class="container mx-auto flex items-center justify-between">
-      <!-- Logo -->
-      <div class="w-auto">
+      <div>
         <a href="https://blackrecprod.com.br/">
-          <img src="BlackRec/public/img/logoNavbar.png" alt="Logo" class="h-12"> <!-- Atualize o caminho da imagem -->
+          <img src="BlackRec/public/img/logoNavbar.png" alt="Logo" class="h-12">
         </a>
       </div>
 
-      <!-- Navbar Menu (centralizado para telas maiores) -->
-      <div
-        id="menu"
-        class="hidden md:flex flex-row items-center space-x-8 mx-auto"> <!-- Centralizado -->
-        <a href="http://blackrecprod.com.br/" class="menu-item active">HOME</a>
+      <div id="menu" class="hidden md:flex items-center space-x-8 mx-auto">
+        <a href="/" class="menu-item active">HOME</a>
         <a href="#services" class="menu-item">SERVIÇOS</a>
         <a href="#portfolio" class="menu-item">PORTFÓLIO</a>
         <a href="#contact" class="menu-item">CONTATO</a>
       </div>
 
-      <!-- Social Icons (à direita) -->
       <div class="hidden md:flex space-x-6">
-        <a
-          href="https://www.instagram.com/blackrecprod/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover:text-gray-400"><i class="fab fa-instagram text-xl"></i></a>
-        <a
-          href="https://www.youtube.com/@BlackrecProducoes"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover:text-gray-400"><i class="fab fa-youtube text-xl"></i></a>
-        <a
-          href="https://www.facebook.com/blackrecprod"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover:text-gray-400"><i class="fab fa-facebook text-xl"></i></a>
+        <a href="https://www.instagram.com/blackrecprod/" target="_blank" class="hover:text-gray-400">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <a href="https://www.youtube.com/@BlackrecProducoes" target="_blank" class="hover:text-gray-400">
+          <i class="fab fa-youtube text-xl"></i>
+        </a>
+        <a href="https://www.facebook.com/blackrecprod" target="_blank" class="hover:text-gray-400">
+          <i class="fab fa-facebook text-xl"></i>
+        </a>
       </div>
 
-      <!-- Botão Hambúrguer (aparece apenas em telas pequenas) -->
       <div class="md:hidden">
         <button id="menu-toggle" class="text-white focus:outline-none">
-          <i class="fas fa-bars text-2xl"></i> <!-- Ícone do Font Awesome -->
+          <i class="fas fa-bars text-2xl"></i>
         </button>
       </div>
     </div>
 
-    <!-- Menu para telas pequenas (hambúrguer) -->
-    <div
-      id="mobile-menu"
-      class="hidden md:hidden flex-col items-center space-y-4 mt-4">
+    <div id="mobile-menu" class="hidden md:hidden flex-col items-center space-y-4 mt-4">
       <a href="#home" class="menu-item">HOME</a>
       <a href="#services" class="menu-item">SERVIÇOS</a>
       <a href="#portfolio" class="menu-item">PORTFÓLIO</a>
       <a href="#contact" class="menu-item">CONTATO</a>
     </div>
   </nav>
+
+  <!-- Estilo CSS -->
+  <style>
+    .menu-open {
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .menu-item {
+      transition: all 0.3s ease-in-out;
+    }
+
+    .menu-item:hover {
+      color: #f3f3f3;
+    }
+  </style>
+
+  <!-- Script para Menu -->
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("mobile-menu");
+    const body = document.body;
+
+    menuToggle.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+      menu.classList.toggle("flex");
+      body.classList.toggle("menu-open");
+    });
+  </script>
 
   <!-- Estilo CSS para o comportamento responsivo -->
   <style>

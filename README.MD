@@ -2,7 +2,6 @@
 
 Este repositório contém a seguinte estrutura de pastas:
 
-
 - **BlackRec**
   - index.php
   - README.MD
@@ -40,7 +39,7 @@ Este repositório contém a seguinte estrutura de pastas:
         - SKYFEET.png
         - SportZone.png
         - vilaskybeach.png
-        - Wow Paraquedismo_.png
+        - Wow Paraquedismo\_.png
         - wow-paraquedismo.png
         - WowBalonismo .png
         - WowParaquedismo.png
@@ -54,9 +53,7 @@ Este repositório contém a seguinte estrutura de pastas:
         - thumbYoutube2.png
         - thumbYoutube3.png
         - thumbYoutube4.png
-  
 
 ## Getting Started
-As instruções para configurar o projeto localmente estarão aqui
 
- 
+As instruções para configurar o projeto localmente estarão aqui
