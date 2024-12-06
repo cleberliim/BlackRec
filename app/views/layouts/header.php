@@ -45,7 +45,7 @@
       <div
         id="menu"
         class="hidden md:flex flex-row items-center space-x-8 mx-auto"> <!-- Centralizado -->
-        <a href="#home" class="menu-item active">HOME</a>
+        <a href="http://blackrecprod.com.br/" class="menu-item active">HOME</a>
         <a href="#services" class="menu-item">SERVIÇOS</a>
         <a href="#portfolio" class="menu-item">PORTFÓLIO</a>
         <a href="#contact" class="menu-item">CONTATO</a>
