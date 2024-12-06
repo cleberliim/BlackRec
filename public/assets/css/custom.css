@@ -218,3 +218,10 @@ body {
   max-width: 90%; /* Ajusta o tamanho máximo da imagem no modal */
   max-height: 80vh; /* Garante que a altura não ultrapasse 80% da altura da tela */
 }
+
+@media (max-width: 768px) {
+  #services {
+    background-size: contain; /* Mostra o tamanho original da imagem */
+    background-attachment: scroll; /* Desativa o efeito de paralaxe */
+  }
+}

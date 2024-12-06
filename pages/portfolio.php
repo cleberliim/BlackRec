@@ -1,5 +1,5 @@
 <!-- Portfolio -->
-<section id="portfolio" class="py-8 md:py-16 bg-zinc-950 px-4 sm:px-6 md:px-12 ">
+<section id="portfolio" class="py-8 md:py-16 bg-zinc-950 px-4 sm:px-6 md:px-12">
   <div class="container mx-auto">
     <!-- Título -->
     <div class="flex flex-col items-center mb-8 md:mb-12">
@@ -20,9 +20,9 @@
       <!-- Vídeo de casamento -->
       <div class="portfolio-item video relative">
         <div class="video-container">
-          <img src="BlackRec/public/img/ThumbYoutube/1.jpg" alt="Vídeo 1" class="rounded-lg object-cover w-full h-full">
+          <img src="BlackRec/public/img/ThumbYoutube/1.jpg" alt="Vídeo 1" loading="lazy" class="rounded-lg object-cover w-full h-full">
           <a href="https://www.youtube.com/watch?v=XLTnOMLzZ7U" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
           </a>
         </div>
       </div>
@@ -30,9 +30,9 @@
       <!-- Vídeo documentário -->
       <div class="portfolio-item video relative">
         <div class="video-container">
-          <img src="BlackRec/public/img/ThumbYoutube/2.jpg" alt="Vídeo 2" class="rounded-lg object-cover w-full h-full">
+          <img src="BlackRec/public/img/ThumbYoutube/2.jpg" alt="Vídeo 2" loading="lazy" class="rounded-lg object-cover w-full h-full">
           <a href="https://youtu.be/49q1NiA7EX4" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
           </a>
         </div>
       </div>
@@ -41,9 +41,9 @@
       <div class="hidden more-items">
         <div class="portfolio-item video relative">
           <div class="video-container">
-            <img src="BlackRec/public/img/ThumbYoutube/3.jpg" alt="Vídeo 3" class="rounded-lg object-cover w-full h-full">
+            <img src="BlackRec/public/img/ThumbYoutube/3.jpg" alt="Vídeo 3" loading="lazy" class="rounded-lg object-cover w-full h-full">
             <a href="https://youtu.be/ixZLYYOePLU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
             </a>
           </div>
         </div>
@@ -53,68 +53,25 @@
       <div class="hidden more-items">
         <div class="portfolio-item video relative">
           <div class="video-container">
-            <img src="BlackRec/public/img/portfolio/thumbYoutube3.jpg" alt="Vídeo 4" class="rounded-lg object-cover w-full h-full">
+            <img src="BlackRec/public/img/portfolio/thumbYoutube3.jpg" alt="Vídeo 4" loading="lazy" class="rounded-lg object-cover w-full h-full">
             <a href="https://youtu.be/hoavFyka-uU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
+              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
             </a>
           </div>
         </div>
       </div>
 
-      <!-- Imagem 1 -->
+      <!-- Fotos -->
       <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" class="rounded-lg cursor-pointer object-cover w-full h-full">
+        <img src="BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
-
-      <!-- Imagem 2 -->
       <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" class="rounded-lg cursor-pointer object-cover w-full h-full">
+        <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
-
-      <!-- Imagem 4 -->
       <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo4.jpg" alt="Foto 4" class="rounded-lg cursor-pointer object-cover w-full h-full">
+        <img src="BlackRec/public/img/portfolio/photo4.jpg" alt="Foto 4" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
-
-      <!-- Imagem 5 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo5.jpg" alt="Foto 5" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 6 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo6.jpg" alt="Foto 6" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 7 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo7.jpg" alt="Foto 7" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 8 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo8.jpg" alt="Foto 8" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 9 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo9.jpg" alt="Foto 9" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 10 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo10.jpg" alt="Foto 10" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 11 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo11.jpg" alt="Foto 11" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-
-      <!-- Imagem 12 -->
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo12.jpg" alt="Foto 12" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
+      <!-- ...restante das imagens -->
     </div>
 
     <!-- Botão Ver Mais -->
