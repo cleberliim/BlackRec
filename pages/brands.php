@@ -50,6 +50,10 @@
         <div class="swiper-slide flex items-center justify-center">
           <img src="BlackRec/public/img/brands/batoque-alpha.png" alt="Cliente 10" class="w-auto h-auto mt-2">
         </div>
+        <!-- Logo 11 -->
+        <div class="swiper-slide flex items-center justify-center">
+          <img src="BlackRec/public/img/brands/comando.png" alt="Cliente 10" class="w-auto h-auto mt-2">
+        </div>
       </div>
     </div>
   </div>
