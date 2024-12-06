@@ -20,44 +20,14 @@
       <!-- Vídeo de casamento -->
       <div class="portfolio-item video relative">
         <div class="video-container">
-          <img src="BlackRec/public/img/ThumbYoutube/1.jpg" alt="Vídeo 1" loading="lazy" class="rounded-lg object-cover w-full h-full">
-          <a href="https://www.youtube.com/watch?v=XLTnOMLzZ7U" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
-          </a>
+          <img src="BlackRec/public/img/ThumbYoutube/1.jpg" alt="Vídeo 1" loading="lazy" class="rounded-lg object-cover w-full h-full cursor-pointer" onclick="openModal('https://www.youtube.com/embed/XLTnOMLzZ7U')">
         </div>
       </div>
 
       <!-- Vídeo documentário -->
       <div class="portfolio-item video relative">
         <div class="video-container">
-          <img src="BlackRec/public/img/ThumbYoutube/2.jpg" alt="Vídeo 2" loading="lazy" class="rounded-lg object-cover w-full h-full">
-          <a href="https://youtu.be/49q1NiA7EX4" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
-          </a>
-        </div>
-      </div>
-
-      <!-- Vídeo institucional -->
-      <div class="hidden more-items">
-        <div class="portfolio-item video relative">
-          <div class="video-container">
-            <img src="BlackRec/public/img/ThumbYoutube/3.jpg" alt="Vídeo 3" loading="lazy" class="rounded-lg object-cover w-full h-full">
-            <a href="https://youtu.be/ixZLYYOePLU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Aniversário Lulu -->
-      <div class="hidden more-items">
-        <div class="portfolio-item video relative">
-          <div class="video-container">
-            <img src="BlackRec/public/img/portfolio/thumbYoutube3.jpg" alt="Vídeo 4" loading="lazy" class="rounded-lg object-cover w-full h-full">
-            <a href="https://youtu.be/hoavFyka-uU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-              <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" loading="lazy" class="w-10 sm:w-12 h-10 sm:h-12">
-            </a>
-          </div>
+          <img src="BlackRec/public/img/ThumbYoutube/2.jpg" alt="Vídeo 2" loading="lazy" class="rounded-lg object-cover w-full h-full cursor-pointer" onclick="openModal('https://www.youtube.com/embed/49q1NiA7EX4')">
         </div>
       </div>
 
@@ -65,58 +35,52 @@
       <div class="portfolio-item photo relative">
         <img src="BlackRec/public/img/portfolio/photo1.jpg" alt="Foto 1" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
       </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo2.jpg" alt="Foto 2" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo3.jpg" alt="Foto 3" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo4.jpg" alt="Foto 4" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo5.jpg" alt="Foto 5" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo6.jpg" alt="Foto 5" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo7.jpg" alt="Foto 7" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo8.jpg" alt="Foto 8" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo9.jpg" alt="Foto 9" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo10.jpg" alt="Foto 10" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo11.jpg" alt="Foto 11" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
-      <div class="portfolio-item photo relative">
-        <img src="BlackRec/public/img/portfolio/photo12.jpg" alt="Foto 12" loading="lazy" class="rounded-lg cursor-pointer object-cover w-full h-full">
-      </div>
 
-      <!-- ...restante das imagens -->
     </div>
 
     <!-- Botão Ver Mais -->
     <div class="text-center mt-6 md:mt-8 w-full">
-      <button id="see-more-btn" class="bg-red-600 text-white  font-bold	 tracking-wider py-2 px-6 sm:px-8 rounded text-sm hover:bg-red-700 w-full">
+      <button id="see-more-btn" class="bg-red-600 text-white font-bold tracking-wider py-2 px-6 sm:px-8 rounded text-sm hover:bg-red-700 w-full">
         CARREGAR MAIS ...
       </button>
     </div>
   </div>
 </section>
 
-<script>
-  const seeMoreBtn = document.getElementById('see-more-btn');
-  const moreItems = document.querySelector('.more-items');
+<!-- Modal -->
+<div id="video-modal" class="fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50">
+  <div class="relative w-full h-full p-4 bg-black">
+    <!-- Botão Fechar -->
+    <div id="close-modal" class="absolute top-2 right-2 cursor-pointer text-white text-3xl">×</div>
+    <iframe id="video-iframe" class="w-full h-full" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
-  seeMoreBtn.addEventListener('click', () => {
-    moreItems.classList.toggle('hidden');
-    seeMoreBtn.textContent = moreItems.classList.contains('hidden') ? 'Ver Mais' : 'Ver Menos';
+<script>
+  // Função para abrir o modal com o vídeo
+  function openModal(videoUrl) {
+    const modal = document.getElementById('video-modal');
+    const iframe = document.getElementById('video-iframe');
+    iframe.src = videoUrl;  // Configura a URL do vídeo dentro do iframe
+    modal.classList.remove('hidden');  // Exibe o modal
+  }
+
+  // Função para fechar o modal
+  function closeModal() {
+    const modal = document.getElementById('video-modal');
+    const iframe = document.getElementById('video-iframe');
+    iframe.src = '';  // Remove o vídeo do iframe
+    modal.classList.add('hidden');  // Oculta o modal
+  }
+
+  // Adicionar o evento de clique no "X" para fechar o modal
+  document.getElementById('close-modal').addEventListener('click', closeModal);
+
+  // Adicionar um evento de clique fora do modal para fechá-lo
+  window.addEventListener('click', (event) => {
+    const modal = document.getElementById('video-modal');
+    if (event.target === modal) {
+      closeModal();
+    }
   });
 </script>
