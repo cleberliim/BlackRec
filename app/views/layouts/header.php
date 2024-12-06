@@ -25,14 +25,6 @@
   <!-- Font icone -->
   <link rel="icon" href="/public/img/icons/logo.ico" type="image/x-icon">
 
-
-  <style>
-    /* Adiciona o estilo personalizado para o modal */
-    .modal {
-      display: none;
-    }
-  </style>
-
 </head>
 
 <body class="bg-gray-100">

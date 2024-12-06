@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Adiciona o estilo personalizado para o modal */
+.modal {
+  display: none;
+}
 .menu-item {
   font-size: 14px;
   position: relative;
