@@ -1,5 +1,5 @@
 <!-- Brands -->
-<section id="brands" class="py-16 px-4 lg:px-40 bg-zinc-950 h-80">
+<section id="brands" class="py-16 px-4 lg:px-40 bg-zinc-950 h-40 lg:h-80">
   <div class="container">
     <!-- Título -->
     <div class="flex flex-col items-center mb-20 text-center">
