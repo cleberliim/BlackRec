@@ -7,6 +7,10 @@
   <meta name="author" content="Cleber Lima">
 
   <title>BlackRec</title>
+
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <!-- Custom css -->
   <link href="/public/assets/css/custom.css" rel="stylesheet" title="custom">
 
@@ -21,15 +25,10 @@
   <!-- Font icone -->
   <link rel="icon" href="/public/img/icons/logo.ico" type="image/x-icon">
 
-  <!-- TailwindCSS -->
-  <link rel="stylesheet" href="/dist/styles.css">
-
-
+  
   <style>
     /* Adiciona o estilo personalizado para o modal */
-    .modal {
-      display: none;
-    }
+    .modal { display: none; }
   </style>
 
 </head>
