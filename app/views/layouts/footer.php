@@ -82,6 +82,19 @@
    });
  </script>
 
+ <!-- WhatsApp Chat -->
+ <a href="https://wa.me/5515997718114?text=Óla%20,%20tudo%20bem?%20Vim%20atrav%C3%A9s%20do%20site%20e%20quero%20fazer%20um%20or%C3%A7amento"
+   target="_blank"
+   class="fixed bottom-5 right-5 z-50 flex items-center bg-green-500 p-3 rounded-full shadow-lg space-x-2 hover:scale-105 transition-all duration-300 ease-in-out">
+   <!-- Texto "Vamos conversar?" -->
+   <span class="text-white text-lg font-semibold hidden sm:block">Vamos conversar?</span>
+
+   <!-- Ícone do WhatsApp -->
+   <div class="flex items-center justify-center w-12 h-12 rounded-full shadow-md">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat" class="w-8 h-8">
+   </div>
+ </a>
+
 
  <footer class="bg-gray-800 text-white py-4">
    <div class="container mx-auto text-center">
