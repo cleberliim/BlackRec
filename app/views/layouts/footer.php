@@ -9,38 +9,7 @@
  </div>
 
 
- <script>
-   document.addEventListener('DOMContentLoaded', function() {
-     const filterButtons = document.querySelectorAll('.filter-btn'); // Botões de filtragem
-     const portfolioItems = document.querySelectorAll('.portfolio-item'); // Itens do portfólio
 
-     // Função para filtrar os itens
-     filterButtons.forEach(button => {
-       button.addEventListener('click', () => {
-         const filterValue = button.getAttribute('data-filter'); // Obtém o valor do filtro
-
-         portfolioItems.forEach(item => {
-           // Se for "todos", mostra todos os itens
-           if (filterValue === 'all') {
-             item.classList.remove('hidden');
-           }
-           // Se o filtro for "foto", mostra apenas os itens com a classe 'photo'
-           else if (filterValue === 'photo' && item.classList.contains('photo')) {
-             item.classList.remove('hidden');
-           }
-           // Se o filtro for "video", mostra apenas os itens com a classe 'video'
-           else if (filterValue === 'video' && item.classList.contains('video')) {
-             item.classList.remove('hidden');
-           }
-           // Se o item não corresponder ao filtro, esconde ele
-           else {
-             item.classList.add('hidden');
-           }
-         });
-       });
-     });
-   });
- </script>
 
 
  <script>
