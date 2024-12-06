@@ -20,7 +20,7 @@
       <!-- Vídeo de casamento -->
       <div class="portfolio-item video relative">
         <div class="video-container">
-          <img src="BlackRec/public/img/portfolio/thumbYoutube.jpg" alt="Vídeo 1" class="rounded-lg object-cover w-full h-full">
+          <img src="BlackRec/public/img/ThumbYoutube/1.jpg" alt="Vídeo 1" class="rounded-lg object-cover w-full h-full">
           <a href="https://www.youtube.com/watch?v=XLTnOMLzZ7U" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
             <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
           </a>
@@ -30,7 +30,7 @@
       <!-- Vídeo documentário -->
       <div class="portfolio-item video relative">
         <div class="video-container">
-          <img src="BlackRec/public/img/portfolio/thumbYoutube1.jpg" alt="Vídeo 2" class="rounded-lg object-cover w-full h-full">
+          <img src="BlackRec/public/img/ThumbYoutube/2.jpg" alt="Vídeo 2" class="rounded-lg object-cover w-full h-full">
           <a href="https://youtu.be/49q1NiA7EX4" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
             <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
           </a>
@@ -41,7 +41,7 @@
       <div class="hidden more-items">
         <div class="portfolio-item video relative">
           <div class="video-container">
-            <img src="BlackRec/public/img/portfolio/thumbYoutube2.jpg" alt="Vídeo 3" class="rounded-lg object-cover w-full h-full">
+            <img src="BlackRec/public/img/ThumbYoutube/3.jpg" alt="Vídeo 3" class="rounded-lg object-cover w-full h-full">
             <a href="https://youtu.be/ixZLYYOePLU" target="_blank" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
               <img src="BlackRec/public/img/icons/play-button.svg" alt="Play" class="w-10 sm:w-12 h-10 sm:h-12">
             </a>
