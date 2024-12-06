@@ -1,5 +1,5 @@
 <!-- Brands -->
-<section id="brands" class="py-16 px-4 lg:px-40 bg-zinc-950 h-60">
+<section id="brands" class="py-16 px-4 lg:px-40 bg-zinc-950 h-80">
   <div class="container">
     <!-- Título -->
     <div class="flex flex-col items-center mb-20 text-center">
@@ -8,47 +8,47 @@
     </div>
 
     <!-- Slider -->
-    <div class="swiper mySwiper mb-40 ">
-      <div class="swiper-wrapper flex space-x-6">
+    <div class="swiper mySwiper mb-40">
+      <div class="swiper-wrapper flex space-x-4"> <!-- Diminuir o espaçamento entre as imagens -->
         <!-- Logo 1 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/wow-paraquedismo.png" alt="Cliente 1" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/wow-paraquedismo.webp" alt="Cliente 1" class="w-auto h-auto">
         </div>
         <!-- Logo 2 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/SharkImob.png" alt="Cliente 2" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/wow-balonismo.webp" alt="Cliente 2" class="w-auto h-auto">
         </div>
         <!-- Logo 3 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/SKYFEET.png" alt="Cliente 3" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/vila-skybeach.webp" alt="Cliente 3" class="w-auto h-auto">
         </div>
         <!-- Logo 4 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/SportZone.png" alt="Cliente 4" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/sportzone.webp" alt="Cliente 4" class="w-auto h-auto">
         </div>
         <!-- Logo 5 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/ISRAviation.png" alt="Cliente 5" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/skyfeet.png" alt="Cliente 5" class="w-auto h-auto">
         </div>
         <!-- Logo 6 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/WowParaquedismo.png" alt="Cliente 6" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/sharlimob.webp" alt="Cliente 6" class="w-auto h-auto">
         </div>
         <!-- Logo 7 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/SKYFEET.png" alt="Cliente 7" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/milimalist.webp" alt="Cliente 7" class="w-auto h-auto">
         </div>
         <!-- Logo 8 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/vilaskybeach.png" alt="Cliente 8" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/isr.webp" alt="Cliente 8" class="w-auto h-auto">
         </div>
         <!-- Logo 9 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/ICARUS.png" alt="Cliente 9" class="h-12 md:h-20">
+          <img src="BlackRec/public/img/brands/icarus.png" alt="Cliente 9" class="w-auto h-auto">
         </div>
         <!-- Logo 10 -->
         <div class="swiper-slide flex items-center justify-center">
-          <img src="BlackRec/public/img/brands/COMANDO.png" alt="Cliente 10" class="h-12 md:h-20 mt-2">
+          <img src="BlackRec/public/img/brands/batoque-alpha.png" alt="Cliente 10" class="w-auto h-auto mt-2">
         </div>
       </div>
     </div>
