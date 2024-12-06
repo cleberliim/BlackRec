@@ -2,7 +2,7 @@
   <div class="container mx-auto flex items-center justify-between">
     <!-- Logo -->
     <div>
-      <a href="#home">
+      <a href="https://blackrecprod.com.br/">
         <img src="BlackRec/public/img/logoNavbar.png" alt="Logo" class="h-12"> <!-- Atualize o caminho da imagem -->
       </a>
     </div>

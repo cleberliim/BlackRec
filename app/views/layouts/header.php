@@ -8,7 +8,7 @@
 
   <title>BlackRec</title>
 
-  <!-- Taiwindcss -->
+  <!-- TailwindCSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Custom css -->
@@ -24,6 +24,8 @@
 
   <!-- Font icone -->
   <link rel="icon" href="/public/img/icons/logo.ico" type="image/x-icon">
+
+  
   <style>
     /* Adiciona o estilo personalizado para o modal */
     .modal { display: none; }
@@ -32,8 +34,6 @@
 </head>
 
 <body class="bg-gray-100">
-
-
   <header class="relative h-screen bg-cover bg-center" style="background-image: url('BlackRec/public/img/background.jpg');">
     <div class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-center px-4">
       <h1 class="text-white font-thin font-montserrat text-[20px] mb-8" style="letter-spacing: 0.5px;">
