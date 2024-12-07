@@ -224,3 +224,19 @@ body {
     background-attachment: scroll; /* Desativa o efeito de paralaxe */
   }
 }
+
+#services {
+  background-image: url("BlackRec/public/img/background-service.webp");
+  background-size: contain; /* Ajusta para caber completamente */
+  background-repeat: no-repeat; /* Evita repetições */
+  background-position: center; /* Centraliza a imagem */
+  width: 100%; /* Largura total do elemento */
+  height: auto; /* Altura ajustada automaticamente */
+}
+
+@media (max-width: 768px) {
+  /* Telas menores */
+  #services {
+    height: 400px; /* Altura fixa para telas pequenas */
+  }
+}

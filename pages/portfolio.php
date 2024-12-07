@@ -18,6 +18,15 @@
       <img src="BlackRec/public/img/portfolio/photo1.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 1">
       <img src="BlackRec/public/img/portfolio/photo2.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 2">
       <img src="BlackRec/public/img/portfolio/photo3.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3">
+      <img src="BlackRec/public/img/portfolio/photo4.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 4">
+      <img src="BlackRec/public/img/portfolio/photo5.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 5">
+      <img src="BlackRec/public/img/portfolio/photo6.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 6">
+      <img src="BlackRec/public/img/portfolio/photo7.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 7">
+      <img src="BlackRec/public/img/portfolio/photo8.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 8">
+      <img src="BlackRec/public/img/portfolio/photo9.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 9">
+      <img src="BlackRec/public/img/portfolio/photo10.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 10">
+      <img src="BlackRec/public/img/portfolio/photo11.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 11">
+      <img src="BlackRec/public/img/portfolio/photo12.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 12">
     </div>
   </div>
 </section>
