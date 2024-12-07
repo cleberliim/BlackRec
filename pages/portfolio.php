@@ -37,6 +37,15 @@
       <div class="aspect-[16/9] video-horizontal">
         <iframe src="https://www.youtube.com/embed/ixZLYYOePLU" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <div class="aspect-[16/9] video-horizontal">
+        <iframe src="https://www.youtube.com/embed/4-_p02IcYzc?si=ZmkwHr2HTKTwbAvR" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-[16/9] video-horizontal">
+        <iframe src="https://www.youtube.com/embed/iv9o1SybBcw?si=6YeeUEwrN7K10KG2" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-[16/9] video-horizontal">
+        <iframe src="https://www.youtube.com/embed/lrJmpBcVrZw?si=drOSnztMxHVGOuWl" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
       <!-- Fotos -->
       <div class="photo">
@@ -47,6 +56,33 @@
       </div>
       <div class="photo">
         <img src="BlackRec/public/img/portfolio/photo3.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo4.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo5.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo6.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo7.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo8.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo9.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo10.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo11.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo12.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
       </div>
       <!-- Mais fotos aqui -->
     </div>
