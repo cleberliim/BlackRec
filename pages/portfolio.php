@@ -7,26 +7,48 @@
       <div class="w-24 sm:w-40 h-1 bg-red-600"></div>
     </div>
 
+    <!-- Menu de Filtro -->
+    <div class="flex justify-center mb-6">
+      <button id="filter-vertical" class="text-white mx-2 px-4 py-2 bg-gray-600 hover:bg-gray-800 rounded">Vídeos Verticais</button>
+      <button id="filter-horizontal" class="text-white mx-2 px-4 py-2 bg-gray-600 hover:bg-gray-800 rounded">Vídeos Horizontais</button>
+      <button id="filter-photos" class="text-white mx-2 px-4 py-2 bg-gray-600 hover:bg-gray-800 rounded">Fotos</button>
+    </div>
+
     <!-- Itens do Portfólio -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
-      <!-- Vídeos -->
-      <img src="BlackRec/public/img/ThumbYoutube/1.jpg" data-video="https://www.youtube.com/embed/XLTnOMLzZ7U" class="video-thumbnail rounded-lg object-cover w-full h-full cursor-pointer" alt="Vídeo 1">
-      <img src="BlackRec/public/img/ThumbYoutube/2.jpg" data-video="https://www.youtube.com/embed/49q1NiA7EX4" class="video-thumbnail rounded-lg object-cover w-full h-full cursor-pointer" alt="Vídeo 2">
-      <img src="BlackRec/public/img/ThumbYoutube/3.jpg" data-video="https://www.youtube.com/embed/ZfrtOVmVY1I" class="video-thumbnail rounded-lg object-cover w-full h-full cursor-pointer" alt="Vídeo 3">
+      <!-- Vídeos Verticais -->
+      <div class="aspect-[9/16] video-vertical">
+        <iframe src="https://www.youtube.com/embed/P1ytuWrJ4vA" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-[9/16] video-vertical">
+        <iframe src="https://www.youtube.com/embed/qxRu7IqnAdQ" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-[9/16] video-vertical">
+        <iframe src="https://www.youtube.com/embed/fwtCGg94H9g" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <!-- Vídeos Horizontais -->
+      <div class="aspect-[16/9] video-horizontal">
+        <iframe src="https://www.youtube.com/embed/XLTnOMLzZ7U" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-[16/9] video-horizontal">
+        <iframe src="https://www.youtube.com/embed/49q1NiA7EX4" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-[16/9] video-horizontal">
+        <iframe src="https://www.youtube.com/embed/ixZLYYOePLU" class="rounded-lg w-full h-full" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
       <!-- Fotos -->
-      <img src="BlackRec/public/img/portfolio/photo1.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 1">
-      <img src="BlackRec/public/img/portfolio/photo2.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 2">
-      <img src="BlackRec/public/img/portfolio/photo3.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3">
-      <img src="BlackRec/public/img/portfolio/photo4.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 4">
-      <img src="BlackRec/public/img/portfolio/photo5.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 5">
-      <img src="BlackRec/public/img/portfolio/photo6.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 6">
-      <img src="BlackRec/public/img/portfolio/photo7.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 7">
-      <img src="BlackRec/public/img/portfolio/photo8.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 8">
-      <img src="BlackRec/public/img/portfolio/photo9.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 9">
-      <img src="BlackRec/public/img/portfolio/photo10.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 10">
-      <img src="BlackRec/public/img/portfolio/photo11.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 11">
-      <img src="BlackRec/public/img/portfolio/photo12.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 12">
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo1.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 1 - Descrição do projeto 1">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo2.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 2 - Descrição do projeto 2">
+      </div>
+      <div class="photo">
+        <img src="BlackRec/public/img/portfolio/photo3.jpg" class="rounded-lg object-cover w-full h-full cursor-pointer" alt="Foto 3 - Descrição do projeto 3">
+      </div>
+      <!-- Mais fotos aqui -->
     </div>
   </div>
 </section>
@@ -34,47 +56,60 @@
 <!-- Modal -->
 <div id="video-modal" class="fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50">
   <div class="relative w-11/12 max-w-4xl bg-black p-4 rounded-lg">
-    <!-- Botão Fechar -->
-    <button id="close-modal" class="absolute top-2 right-2 text-white text-3xl font-bold cursor-pointer">
-      &times;
-    </button>
-    <!-- Vídeo -->
+    <button id="close-modal" class="absolute top-2 right-2 text-white text-3xl font-bold cursor-pointer">&times;</button>
     <iframe id="video-iframe" class="w-full h-96" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    const allItems = document.querySelectorAll('.video-vertical, .video-horizontal, .photo');
+    const filterVertical = document.getElementById('filter-vertical');
+    const filterHorizontal = document.getElementById('filter-horizontal');
+    const filterPhotos = document.getElementById('filter-photos');
+
+    // Função para mostrar todos os itens
+    const showAllItems = () => {
+      allItems.forEach(item => item.classList.remove('hidden'));
+    };
+
+    // Função para esconder itens de um tipo específico
+    const hideItems = (selector) => {
+      document.querySelectorAll(selector).forEach(item => item.classList.add('hidden'));
+    };
+
+    // Filtros
+    filterVertical.addEventListener('click', () => {
+      showAllItems(); // Mostrar todos inicialmente
+      hideItems('.video-horizontal, .photo'); // Esconder horizontais e fotos
+    });
+    filterHorizontal.addEventListener('click', () => {
+      showAllItems();
+      hideItems('.video-vertical, .photo');
+    });
+    filterPhotos.addEventListener('click', () => {
+      showAllItems();
+      hideItems('.video-vertical, .video-horizontal');
+    });
+
+    // Modal de vídeo
     const modal = document.getElementById('video-modal');
     const closeModalButton = document.getElementById('close-modal');
     const iframe = document.getElementById('video-iframe');
-    const thumbnails = document.querySelectorAll('.video-thumbnail');
 
-    // Função para abrir o modal
-    function openModal(videoUrl) {
-      iframe.src = videoUrl; // Configura o vídeo no iframe
-      modal.classList.remove('hidden'); // Mostra o modal
-      modal.style.display = 'flex'; // Garante a exibição correta
-    }
+    const openModal = (videoUrl) => {
+      iframe.src = videoUrl;
+      modal.classList.remove('hidden');
+      modal.style.display = 'flex';
+    };
 
-    // Função para fechar o modal
-    function closeModal() {
-      modal.classList.add('hidden'); // Esconde o modal
-      modal.style.display = 'none'; // Remove do fluxo
-      iframe.src = ''; // Limpa o iframe para parar o vídeo
-    }
+    const closeModal = () => {
+      modal.classList.add('hidden');
+      modal.style.display = 'none';
+      iframe.src = '';
+    };
 
-    // Adiciona eventos aos thumbnails
-    thumbnails.forEach(thumbnail => {
-      thumbnail.addEventListener('click', () => {
-        const videoUrl = thumbnail.getAttribute('data-video');
-        openModal(videoUrl);
-      });
-    });
-
-    // Evento de clique no botão "X"
     closeModalButton.addEventListener('click', closeModal);
-
-    // Fecha o modal ao clicar fora dele
     window.addEventListener('click', (event) => {
       if (event.target === modal) {
         closeModal();

@@ -240,3 +240,16 @@ body {
     height: 400px; /* Altura fixa para telas pequenas */
   }
 }
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: grid;
+}
+
+.tab-button.active {
+  background-color: #ef4444;
+  color: #fff;
+}
