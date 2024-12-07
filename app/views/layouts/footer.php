@@ -97,6 +97,40 @@
  </a>
 
 
+
+ <div id="cookie-banner" class="hidden fixed bottom-0 w-full bg-gray-800 text-white p-4 z-50">
+   <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+     <p class="text-sm md:text-base">
+       Utilizamos cookies para melhorar sua experiência no site. Ao continuar navegando, você concorda com nossa
+       <a href="/politica-de-privacidade" class="text-yellow-400 underline hover:text-yellow-300">
+         Política de Privacidade
+       </a>.
+     </p>
+     <button id="accept-cookies" class="mt-3 md:mt-0 bg-yellow-400 text-gray-800 font-medium px-4 py-2 rounded hover:bg-yellow-300">
+       Aceitar
+     </button>
+   </div>
+ </div>
+
+ <script>
+   document.addEventListener("DOMContentLoaded", function() {
+     const banner = document.getElementById("cookie-banner");
+     const acceptButton = document.getElementById("accept-cookies");
+
+     // Verificar se o consentimento já foi dado
+     if (!localStorage.getItem("cookiesAccepted")) {
+       banner.classList.remove("hidden");
+     }
+
+     // Salvar consentimento e ocultar banner
+     acceptButton.addEventListener("click", () => {
+       localStorage.setItem("cookiesAccepted", "true");
+       banner.classList.add("hidden");
+     });
+   });
+ </script>
+
+
  <footer class="bg-gray-800 text-white py-4">
    <div class="container mx-auto text-center">
      <p class="text-sm">Desenvolvido por <a href="https://github.com/cleberliim" target="_blank" class="text-blue-400 hover:text-blue-600">Cleber Lima</a></p>
