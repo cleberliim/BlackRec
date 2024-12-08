@@ -137,9 +137,6 @@
 
 
   <header class="relative h-screen bg-cover bg-center" style="background-image: url('BlackRec/public/img/background.jpg');">
-
-
-
     <div class="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-center px-4">
       <h1 class="text-white font-thin font-montserrat text-[20px] mb-8" style="letter-spacing: 0.5px;">
         Bem-vindo ao universo <span class="font-bold">Blackrec</span>, onde a arte ganha vida <br>através de vídeos autênticos e ousados.
@@ -164,10 +161,10 @@
   <div id="videoModal" class="hidden fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
     <div class="relative w-full max-w-3xl mx-auto bg-black p-4 rounded-lg shadow-lg">
       <button id="closeModal" class="absolute top-2 right-2 text-white text-2xl hover:text-gray-300">&times;</button>
-      <div class="aspect-w-16 aspect-h-9">
+      <div class="relative pb-[56.25%]"> <!-- Aspect Ratio de 16:9 -->
         <iframe
           id="videoIframe"
-          class="w-full h-full rounded-lg"
+          class="absolute top-0 left-0 w-full h-full rounded-lg"
           src=""
           frameborder="0"
           allow="autoplay; fullscreen"
@@ -182,22 +179,25 @@
     const videoModal = document.getElementById('videoModal');
     const closeModal = document.getElementById('closeModal');
     const videoIframe = document.getElementById('videoIframe');
-    const videoUrl = "https://www.youtube.com/embed/AVKHkOQ5bYQ?autoplay=1"; //alterar a url do video
+    const videoUrl = "https://www.youtube.com/embed/AVKHkOQ5bYQ?autoplay=1"; // URL do vídeo a ser alterado conforme necessário
 
+    // Ao clicar no botão para abrir o modal
     playButton.addEventListener('click', () => {
       videoIframe.src = videoUrl; // Define o vídeo ao abrir o modal
-      videoModal.classList.remove('hidden');
+      videoModal.classList.remove('hidden'); // Exibe o modal
     });
 
+    // Fechar o modal ao clicar no botão de fechar
     closeModal.addEventListener('click', () => {
       videoIframe.src = ""; // Para o vídeo ao fechar o modal
-      videoModal.classList.add('hidden');
+      videoModal.classList.add('hidden'); // Esconde o modal
     });
 
+    // Fechar o modal ao clicar fora do conteúdo do modal
     videoModal.addEventListener('click', (e) => {
       if (e.target === videoModal) {
-        videoIframe.src = ""; // Para o vídeo ao clicar fora
-        videoModal.classList.add('hidden');
+        videoIframe.src = ""; // Para o vídeo
+        videoModal.classList.add('hidden'); // Esconde o modal
       }
     });
   </script>
