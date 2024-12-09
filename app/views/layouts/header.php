@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="390">
   <meta name="robots" content="noindex" />
-  <meta name="description" content="BlackRec é o site de Cleber Lima, videomaker especializado em fotos e filmagens para diversos segmentos.">
+  <meta name="description" content="BlackRec é site de Geovane Caique, videomaker especializado em fotos e filmagens para diversos segmentos.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Cleber Lima">
 
